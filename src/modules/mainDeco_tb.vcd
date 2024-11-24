@@ -1,0 +1,84 @@
+$date
+	Tue Nov 19 12:28:23 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mainDeco_tb $end
+$var wire 1 ! resSrc $end
+$var wire 1 " regWrite $end
+$var wire 1 # memWrite $end
+$var wire 2 $ immSrc [1:0] $end
+$var wire 1 % branch $end
+$var wire 1 & aluSrc $end
+$var wire 2 ' aluOp [1:0] $end
+$var reg 7 ( op [6:0] $end
+$scope module uut $end
+$var wire 7 ) op [6:0] $end
+$var reg 2 * aluOp [1:0] $end
+$var reg 1 & aluSrc $end
+$var reg 1 % branch $end
+$var reg 2 + immSrc [1:0] $end
+$var reg 1 # memWrite $end
+$var reg 1 " regWrite $end
+$var reg 1 ! resSrc $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+b0 *
+b11 )
+b11 (
+b0 '
+1&
+0%
+b0 $
+0#
+1"
+1!
+$end
+#1000000
+1#
+b1 $
+b1 +
+0"
+1&
+0!
+b100011 (
+b100011 )
+#2000000
+b10 '
+b10 *
+1"
+b0 $
+b0 +
+0&
+0#
+b110011 (
+b110011 )
+#3000000
+1%
+b10 $
+b10 +
+b1 '
+b1 *
+0"
+b1100011 (
+b1100011 )
+#4000000
+b0 '
+b0 *
+b0 $
+b0 +
+0%
+b1111111 (
+b1111111 )
+#5000000

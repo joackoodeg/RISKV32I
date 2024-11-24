@@ -1,0 +1,151 @@
+$date
+	Tue Nov 19 12:42:38 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module UC_tb $end
+$var wire 1 ! resSrc $end
+$var wire 1 " regWrite $end
+$var wire 1 # pcSrc $end
+$var wire 1 $ memWrite $end
+$var wire 2 % immSrc [1:0] $end
+$var wire 1 & branch $end
+$var wire 1 ' aluSrc $end
+$var wire 3 ( aluControl [2:0] $end
+$var reg 3 ) func3 [2:0] $end
+$var reg 1 * func7 $end
+$var reg 7 + op [6:0] $end
+$var reg 1 , zero $end
+$scope module uut $end
+$var wire 3 - func3 [2:0] $end
+$var wire 1 * func7 $end
+$var wire 7 . op [6:0] $end
+$var wire 1 # pcSrc $end
+$var wire 1 , zero $end
+$var wire 1 ! resSrc $end
+$var wire 1 " regWrite $end
+$var wire 1 $ memWrite $end
+$var wire 2 / immSrc [1:0] $end
+$var wire 1 & branch $end
+$var wire 1 ' aluSrc $end
+$var wire 2 0 aluOp [1:0] $end
+$var wire 3 1 aluControl [2:0] $end
+$scope module aluDecoder $end
+$var wire 3 2 func3 [2:0] $end
+$var wire 1 * func7 $end
+$var wire 2 3 aluOp [1:0] $end
+$var reg 3 4 aluControl [2:0] $end
+$upscope $end
+$scope module mainDecoder $end
+$var wire 7 5 op [6:0] $end
+$var reg 2 6 aluOp [1:0] $end
+$var reg 1 ' aluSrc $end
+$var reg 1 & branch $end
+$var reg 2 7 immSrc [1:0] $end
+$var reg 1 $ memWrite $end
+$var reg 1 " regWrite $end
+$var reg 1 ! resSrc $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 7
+b0 6
+b11 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b11 .
+b0 -
+0,
+b11 +
+0*
+b0 )
+b0 (
+1'
+0&
+b0 %
+0$
+0#
+1"
+1!
+$end
+#1000000
+1$
+b1 %
+b1 /
+b1 7
+0"
+1'
+0!
+b100011 +
+b100011 .
+b100011 5
+#2000000
+b1 (
+b1 1
+b1 4
+1#
+b1 0
+b1 3
+b1 6
+1&
+b10 %
+b10 /
+b10 7
+0'
+0$
+1,
+b1100011 +
+b1100011 .
+b1100011 5
+#3000000
+b0 (
+b0 1
+b0 4
+0#
+1"
+b10 0
+b10 3
+b10 6
+b0 %
+b0 /
+b0 7
+0&
+0,
+b110011 +
+b110011 .
+b110011 5
+#4000000
+b1 (
+b1 1
+b1 4
+1*
+#5000000
+b10 (
+b10 1
+b10 4
+0*
+b111 )
+b111 -
+b111 2
+#6000000
+b11 (
+b11 1
+b11 4
+b110 )
+b110 -
+b110 2
+#7000000
